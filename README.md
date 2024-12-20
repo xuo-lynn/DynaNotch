@@ -1,3 +1,1 @@
-![gif](https://github.com/user-attachments/assets/8e36e9f6-81cb-4836-aceb-e9b4724345d3)
-
-UI inspired by other notch UIs. Using Media Remote api to detect changes in media center.
+![Screen Recording Dec 19 2024](https://github.com/user-attachments/assets/5819c3c2-bc9b-4563-a461-fe31e5ab8ffc)
