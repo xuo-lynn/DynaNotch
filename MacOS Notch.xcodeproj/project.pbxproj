@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AD88770D2D14912700491EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8876F32D14912600491EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD8876FA2D14912600491EAB;
+			remoteInfo = "MacOS Notch";
+		};
+		AD8877172D14912700491EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8876F32D14912600491EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD8876FA2D14912600491EAB;
+			remoteInfo = "MacOS Notch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD8876FB2D14912600491EAB /* MacOS Notch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacOS Notch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD88770C2D14912700491EAB /* MacOS NotchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacOS NotchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8877162D14912700491EAB /* MacOS NotchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacOS NotchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AD8877432D149AE700491EAB /* Exceptions for "MacOS Notch" folder in "MacOS Notch" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MediaRemote.framework,
+			);
+			target = AD8876FA2D14912600491EAB /* MacOS Notch */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AD8876FD2D14912600491EAB /* MacOS Notch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AD8877432D149AE700491EAB /* Exceptions for "MacOS Notch" folder in "MacOS Notch" target */,
+			);
+			path = "MacOS Notch";
+			sourceTree = "<group>";
+		};
+		AD88770F2D14912700491EAB /* MacOS NotchTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MacOS NotchTests";
+			sourceTree = "<group>";
+		};
+		AD8877192D14912700491EAB /* MacOS NotchUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MacOS NotchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD8876F82D14912600491EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8877092D14912700491EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8877132D14912700491EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD8876F22D14912600491EAB = {
+			isa = PBXGroup;
+			children = (
+				AD8876FD2D14912600491EAB /* MacOS Notch */,
+				AD88770F2D14912700491EAB /* MacOS NotchTests */,
+				AD8877192D14912700491EAB /* MacOS NotchUITests */,
+				AD8876FC2D14912600491EAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD8876FC2D14912600491EAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD8876FB2D14912600491EAB /* MacOS Notch.app */,
+				AD88770C2D14912700491EAB /* MacOS NotchTests.xctest */,
+				AD8877162D14912700491EAB /* MacOS NotchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD8876FA2D14912600491EAB /* MacOS Notch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8877202D14912700491EAB /* Build configuration list for PBXNativeTarget "MacOS Notch" */;
+			buildPhases = (
+				AD8876F72D14912600491EAB /* Sources */,
+				AD8876F82D14912600491EAB /* Frameworks */,
+				AD8876F92D14912600491EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AD8876FD2D14912600491EAB /* MacOS Notch */,
+			);
+			name = "MacOS Notch";
+			packageProductDependencies = (
+			);
+			productName = "MacOS Notch";
+			productReference = AD8876FB2D14912600491EAB /* MacOS Notch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD88770B2D14912700491EAB /* MacOS NotchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8877232D14912700491EAB /* Build configuration list for PBXNativeTarget "MacOS NotchTests" */;
+			buildPhases = (
+				AD8877082D14912700491EAB /* Sources */,
+				AD8877092D14912700491EAB /* Frameworks */,
+				AD88770A2D14912700491EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD88770E2D14912700491EAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD88770F2D14912700491EAB /* MacOS NotchTests */,
+			);
+			name = "MacOS NotchTests";
+			packageProductDependencies = (
+			);
+			productName = "MacOS NotchTests";
+			productReference = AD88770C2D14912700491EAB /* MacOS NotchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD8877152D14912700491EAB /* MacOS NotchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8877262D14912700491EAB /* Build configuration list for PBXNativeTarget "MacOS NotchUITests" */;
+			buildPhases = (
+				AD8877122D14912700491EAB /* Sources */,
+				AD8877132D14912700491EAB /* Frameworks */,
+				AD8877142D14912700491EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD8877182D14912700491EAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD8877192D14912700491EAB /* MacOS NotchUITests */,
+			);
+			name = "MacOS NotchUITests";
+			packageProductDependencies = (
+			);
+			productName = "MacOS NotchUITests";
+			productReference = AD8877162D14912700491EAB /* MacOS NotchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD8876F32D14912600491EAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AD8876FA2D14912600491EAB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AD88770B2D14912700491EAB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AD8876FA2D14912600491EAB;
+					};
+					AD8877152D14912700491EAB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AD8876FA2D14912600491EAB;
+					};
+				};
+			};
+			buildConfigurationList = AD8876F62D14912600491EAB /* Build configuration list for PBXProject "MacOS Notch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD8876F22D14912600491EAB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AD8876FC2D14912600491EAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD8876FA2D14912600491EAB /* MacOS Notch */,
+				AD88770B2D14912700491EAB /* MacOS NotchTests */,
+				AD8877152D14912700491EAB /* MacOS NotchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD8876F92D14912600491EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD88770A2D14912700491EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8877142D14912700491EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD8876F72D14912600491EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8877082D14912700491EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8877122D14912700491EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD88770E2D14912700491EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD8876FA2D14912600491EAB /* MacOS Notch */;
+			targetProxy = AD88770D2D14912700491EAB /* PBXContainerItemProxy */;
+		};
+		AD8877182D14912700491EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD8876FA2D14912600491EAB /* MacOS Notch */;
+			targetProxy = AD8877172D14912700491EAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD88771E2D14912700491EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD88771F2D14912700491EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AD8877212D14912700491EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MacOS Notch/MacOS_Notch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacOS Notch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MacOS\\ Notch",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xuo.com.company.MacOS-Notch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD8877222D14912700491EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MacOS Notch/MacOS_Notch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacOS Notch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MacOS\\ Notch",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xuo.com.company.MacOS-Notch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD8877242D14912700491EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xuo.com.company.MacOS-NotchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOS Notch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacOS Notch";
+			};
+			name = Debug;
+		};
+		AD8877252D14912700491EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xuo.com.company.MacOS-NotchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOS Notch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacOS Notch";
+			};
+			name = Release;
+		};
+		AD8877272D14912700491EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xuo.com.company.MacOS-NotchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MacOS Notch";
+			};
+			name = Debug;
+		};
+		AD8877282D14912700491EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xuo.com.company.MacOS-NotchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MacOS Notch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD8876F62D14912600491EAB /* Build configuration list for PBXProject "MacOS Notch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD88771E2D14912700491EAB /* Debug */,
+				AD88771F2D14912700491EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8877202D14912700491EAB /* Build configuration list for PBXNativeTarget "MacOS Notch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8877212D14912700491EAB /* Debug */,
+				AD8877222D14912700491EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8877232D14912700491EAB /* Build configuration list for PBXNativeTarget "MacOS NotchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8877242D14912700491EAB /* Debug */,
+				AD8877252D14912700491EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8877262D14912700491EAB /* Build configuration list for PBXNativeTarget "MacOS NotchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8877272D14912700491EAB /* Debug */,
+				AD8877282D14912700491EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD8876F32D14912600491EAB /* Project object */;
+}
